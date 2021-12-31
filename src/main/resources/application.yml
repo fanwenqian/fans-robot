@@ -1,0 +1,18 @@
+simbot:
+  core:
+    scan-package: com.fans.fansrobot
+    logo:
+      enable: false
+    tips:
+      enable: false
+  component:
+    mirai:
+      protocol: android_phone
+spring:
+  profiles:
+    active: dev
+logging:
+  level:
+    ROOT: INFO
+    com.fans.fansrobot: DEBUG
+
